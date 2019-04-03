@@ -3,7 +3,7 @@
 from ev3dev.ev3 import *
 from time import sleep
 
-us = UltrasonicSensor()
+us = UltrasonicSensor('in2')
 us.mode='US-DIST-CM'
 units = us.units
 
